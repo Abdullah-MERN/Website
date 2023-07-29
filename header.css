@@ -1,0 +1,34 @@
+.header{
+    height : 200px;
+    position: fixed;
+    top : 0px;
+    right:0px;
+    left:0px;
+    display:flex;
+    justify-content: center;
+   z-index: 210000;
+   background-color: white;
+}
+
+.logo{
+    height  : 200px;
+    align-items: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    position: static;
+    z-index:0;
+}
+
+.disimage{
+    height :300px;
+}
+
+.info{
+    background-color: lightcyan;
+    height : 300px;
+}
